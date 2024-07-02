@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Taza clon",
+      "precio": "60",
+      "imagen": "./img/stromtaza.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Hombre araña",
+      "precio": "90",
+      "imagen": "./img/hombrearaña.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Giratiempo",
+      "precio": "160",
+      "imagen": "./img/giratiempo.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Libro de magia",
+      "precio": "300",
+      "imagen": "./img/libromagico.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Taza clon",
+      "precio": "60",
+      "imagen": "./img/stromtaza.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Hombre araña",
+      "precio": "$90",
+      "imagen": "./img/hombrearaña.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Giratiempo",
+      "precio": "160",
+      "imagen": "./img/giratiempo.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Libro de magia",
+      "precio": "300",
+      "imagen": "./img/libromagico.jpg"
+    },
+    {
+      "id": "aa53",
+      "nombre": "Corbatas",
+      "precio": "240",
+      "imagen": "https://images.unsplash.com/photo-1533462506003-13c20d204b58?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "b6f9",
+      "nombre": "Libro",
+      "precio": "300",
+      "imagen": "https://images.unsplash.com/photo-1600189261867-30e5ffe7b8da?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}

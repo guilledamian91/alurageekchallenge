@@ -1,0 +1,151 @@
+
+
+/* Estilos para el cuerpo */
+body{
+    font-family: 'VT323', monospace;
+}
+
+/* Estilos para el encabezado */
+.cabecera__container {
+    background-color: #5d04d9;
+    height: auto;
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.imagen__container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+/* Estilos para el contenido principal */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 250px; 
+    margin-bottom: 288px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main-container section {
+    flex: 1;
+    min-width: 45%;
+    margin: 1rem;
+}
+.main-container h1{
+    font-size: 80px;
+}
+
+/* Estilos para la sección de productos */
+.product-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.card {
+    background-color: #5d04d9;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    color:white;
+    font-size: 40px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card-container--info {
+    padding: 1rem;
+}
+
+.card-container--info p {
+    margin: 0.5rem 0;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button img {
+    width: 40px;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+.form-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container input {
+    padding: 0.5rem;
+    border: 3px solid #03318c;
+    border-radius: 15px;
+    height: 50px;
+    width: 500px;
+    font-size: xx-large;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.button-submit,
+.button-clear {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.button-submit {
+    background-color: #03318c;
+    color: white;
+}
+
+.button-clear {
+    color: #03318c;
+    border: solid 3px #03318c;
+}
+
+/* Estilos para el pie de página */
+.footer-container {
+    background-color: #5d04d9;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin:auto;
+}

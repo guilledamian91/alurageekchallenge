@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AluraGeek</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="cabecera__container">
+            <img class="cabecera__imagen" src="./img/imagenheader.png">
+        </nav>
+    </header>
+    <main class="main-container">
+        <section>
+            <h1>Mis productos</h1>
+            <div data-product class="product-container">               
+            </div> 
+        </section>
+
+        <section>
+            <h1>Agregar Producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre..." type="text">
+                <input data-price placeholder="precio..." type="text">
+                <input data-image placeholder="imagen..." type="text">
+
+                <div class="button-container">
+                    <button type="sumit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <img class="cabecera__imagen" src="./img/imagenheader.png">
+        <p>DESARROLLADO POR GUILLERMO PÉREZ MAIDANA</p>
+        <p>ALURA LATAM 2024</p>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
